@@ -1,0 +1,51 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="home-layout">
+
+  <!-- LEFT -->
+  <div class="left-side">
+
+    <div class="header">
+      <h1>Find parking near the station!</h1>
+    </div>
+
+    <div class="journey-box">
+      <form method="POST">
+        {% csrf_token %}
+
+        <select name="station" required>
+          <option disabled selected>Station</option>
+          {% for station in stations %}
+          <option value="{{ station.pk }}">
+            {{ station.station_name }}
+          </option>
+          {% endfor %}
+        </select>
+
+        <button type="submit" class="route-btn">
+          Find parking arena
+        </button>
+      </form>
+    </div>
+
+    <!-- 🔥 THIS MUST BE INSIDE LEFT-SIDE -->
+    {% if parking %}
+    <div class="result-box">
+      <h3>Parking Info</h3>
+      <p>Slots: {{ parking.total_slots }}</p>
+      <p>Fee: ₹{{ parking.parking_fee_per_hour }}/hr</p>
+    </div>
+    {% endif %}
+
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right-side">
+    <img src="{% static 'images/metro.png' %}" class="home-metro">
+  </div>
+
+</div>
+{% endblock %}

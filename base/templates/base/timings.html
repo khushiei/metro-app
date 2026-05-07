@@ -1,0 +1,58 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="home-layout">
+
+  <!-- LEFT SIDE -->
+  <div class="left-side">
+
+    <div class="header">
+      <h1>Find the train timings!</h1>
+    </div>
+
+    <div class="journey-box">
+      <form method="POST">
+        {% csrf_token %}
+
+        <select name="station" required>
+          <option selected disabled>Station</option>
+          {% for station in stations %}
+          <option value="{{ station.station_id }}">
+            {{ station.station_name }}
+          </option>
+          {% endfor %}
+        </select>
+
+        <button type="submit" class="route-btn">
+          Find the timings
+        </button>
+      </form>
+    </div>
+    {% if timings %}
+    <div class="result-box">
+      <h3>Train Timings</h3>
+      {% for t in timings %}
+        <p><strong>{{ t.line.line_name }}</strong></p>
+        <p>First: {{ t.first_train_time }}</p>
+        <p>Last: {{ t.last_train_time }}</p>
+        <p>Frequency: {{ t.frequency_minutes }} mins</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="right-side">
+    <img
+      src="{% static 'images/metro.png' %}"
+      class="home-metro"
+      alt="Metro Train"
+    />
+  </div>
+
+</div>
+
+{% endblock %}

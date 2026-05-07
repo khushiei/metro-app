@@ -1,0 +1,758 @@
+gate_id,station,gate_number,direction_description,nearby_landmark
+1,1,1,Towards Residential Area,City Mall near Dwarka Sector 21
+2,1,2,Towards North Block,Local Market near Dwarka Sector 21
+3,1,3,Towards Bus Stand,Hospital near Dwarka Sector 21
+4,1,4,Towards Residential Area,Post Office near Dwarka Sector 21
+5,2,1,Towards Residential Area,Bank Branch near Dwarka Sector 8
+6,2,2,Towards East Avenue,City Mall near Dwarka Sector 8
+7,2,3,Towards Main Road,Central Park near Dwarka Sector 8
+8,2,4,Towards Bus Stand,Local Market near Dwarka Sector 8
+9,3,1,Towards Main Road,PVR Cinemas near Dwarka Sector 9
+10,3,2,Towards Bus Stand,Post Office near Dwarka Sector 9
+11,3,3,Towards East Avenue,Local Market near Dwarka Sector 9
+12,3,4,Towards West Avenue,Bank Branch near Dwarka Sector 9
+13,4,1,Towards Main Road,Hospital near Dwarka Sector 10
+14,4,2,Towards East Avenue,Police Station near Dwarka Sector 10
+15,4,3,Towards North Block,Hospital near Dwarka Sector 10
+16,5,1,Towards South Block,Central Park near Dwarka Sector 11
+17,5,2,Towards Residential Area,University near Dwarka Sector 11
+18,6,1,Towards South Block,Police Station near Dwarka Sector 12
+19,6,2,Towards North Block,City Mall near Dwarka Sector 12
+20,7,1,Towards West Avenue,PVR Cinemas near Dwarka Sector 13
+21,7,2,Towards Residential Area,University near Dwarka Sector 13
+22,7,3,Towards Residential Area,PVR Cinemas near Dwarka Sector 13
+23,7,4,Towards North Block,Post Office near Dwarka Sector 13
+24,8,1,Towards South Block,Bank Branch near Dwarka Sector 14
+25,8,2,Towards Bus Stand,Central Park near Dwarka Sector 14
+26,8,3,Towards Main Road,Post Office near Dwarka Sector 14
+27,8,4,Towards Bus Stand,Bus Terminus near Dwarka Sector 14
+28,9,1,Towards Bus Stand,Central Park near Dwarka
+29,9,2,Towards East Avenue,Bus Terminus near Dwarka
+30,10,1,Towards South Block,Hospital near Dwarka Mor
+31,10,2,Towards South Block,Police Station near Dwarka Mor
+32,10,3,Towards Bus Stand,Post Office near Dwarka Mor
+33,11,1,Towards Residential Area,Bank Branch near Nawada
+34,11,2,Towards Commercial Hub,PVR Cinemas near Nawada
+35,11,3,Towards Bus Stand,Hospital near Nawada
+36,12,1,Towards East Avenue,Bus Terminus near Uttam Nagar West
+37,12,2,Towards Bus Stand,Post Office near Uttam Nagar West
+38,12,3,Towards South Block,City Mall near Uttam Nagar West
+39,13,1,Towards Main Road,Police Station near Uttam Nagar East
+40,13,2,Towards East Avenue,Bus Terminus near Uttam Nagar East
+41,14,1,Towards Bus Stand,Bank Branch near Janakpuri West
+42,14,2,Towards South Block,Local Market near Janakpuri West
+43,15,1,Towards West Avenue,University near Janakpuri East
+44,15,2,Towards West Avenue,Hospital near Janakpuri East
+45,15,3,Towards North Block,Hospital near Janakpuri East
+46,15,4,Towards Bus Stand,PVR Cinemas near Janakpuri East
+47,16,1,Towards North Block,Bank Branch near Tilak Nagar
+48,16,2,Towards East Avenue,Bank Branch near Tilak Nagar
+49,16,3,Towards East Avenue,Police Station near Tilak Nagar
+50,16,4,Towards Bus Stand,Hospital near Tilak Nagar
+51,17,1,Towards West Avenue,Central Park near Subhash Nagar
+52,17,2,Towards Main Road,Central Park near Subhash Nagar
+53,17,3,Towards Commercial Hub,Post Office near Subhash Nagar
+54,17,4,Towards Commercial Hub,Post Office near Subhash Nagar
+55,18,1,Towards Residential Area,University near Tagore Garden
+56,18,2,Towards East Avenue,Bank Branch near Tagore Garden
+57,18,3,Towards West Avenue,PVR Cinemas near Tagore Garden
+58,19,1,Towards Main Road,Post Office near Rajouri Garden
+59,19,2,Towards Residential Area,Post Office near Rajouri Garden
+60,19,3,Towards North Block,Post Office near Rajouri Garden
+61,20,1,Towards Residential Area,Bus Terminus near Ramesh Nagar
+62,20,2,Towards East Avenue,Hospital near Ramesh Nagar
+63,20,3,Towards West Avenue,City Mall near Ramesh Nagar
+64,21,1,Towards North Block,PVR Cinemas near Moti Nagar
+65,21,2,Towards Commercial Hub,PVR Cinemas near Moti Nagar
+66,21,3,Towards Residential Area,Post Office near Moti Nagar
+67,21,4,Towards North Block,Post Office near Moti Nagar
+68,22,1,Towards Bus Stand,Hospital near Kirti Nagar
+69,22,2,Towards South Block,Hospital near Kirti Nagar
+70,22,3,Towards Main Road,Bank Branch near Kirti Nagar
+71,22,4,Towards South Block,Sports Complex near Kirti Nagar
+72,23,1,Towards Residential Area,Police Station near Shadipur
+73,23,2,Towards North Block,Local Market near Shadipur
+74,24,1,Towards Bus Stand,Bank Branch near Patel Nagar
+75,24,2,Towards Residential Area,Central Park near Patel Nagar
+76,25,1,Towards West Avenue,Central Park near Rajendra Place
+77,25,2,Towards Commercial Hub,Hospital near Rajendra Place
+78,25,3,Towards West Avenue,PVR Cinemas near Rajendra Place
+79,25,4,Towards Commercial Hub,Bus Terminus near Rajendra Place
+80,26,1,Towards East Avenue,Local Market near Karol Bagh
+81,26,2,Towards Bus Stand,Bus Terminus near Karol Bagh
+82,26,3,Towards East Avenue,Post Office near Karol Bagh
+83,26,4,Towards South Block,Sports Complex near Karol Bagh
+84,27,1,Towards West Avenue,Central Park near Jhandewalan
+85,27,2,Towards Bus Stand,Local Market near Jhandewalan
+86,27,3,Towards Residential Area,Police Station near Jhandewalan
+87,27,4,Towards Main Road,Bank Branch near Jhandewalan
+88,28,1,Towards Bus Stand,Bank Branch near Ramakrishna Ashram Marg
+89,28,2,Towards Bus Stand,City Mall near Ramakrishna Ashram Marg
+90,28,3,Towards Residential Area,Post Office near Ramakrishna Ashram Marg
+91,28,4,Towards Main Road,Local Market near Ramakrishna Ashram Marg
+92,29,1,Towards Main Road,Police Station near Rajiv Chowk
+93,29,2,Towards Residential Area,PVR Cinemas near Rajiv Chowk
+94,30,1,Towards North Block,Post Office near Barakhamba Road
+95,30,2,Towards West Avenue,Local Market near Barakhamba Road
+96,31,1,Towards Commercial Hub,Bank Branch near Mandi House
+97,31,2,Towards West Avenue,Local Market near Mandi House
+98,31,3,Towards West Avenue,University near Mandi House
+99,31,4,Towards Bus Stand,Central Park near Mandi House
+100,32,1,Towards East Avenue,Police Station near Supreme Court
+101,32,2,Towards East Avenue,University near Supreme Court
+102,33,1,Towards Main Road,Post Office near Indraprastha
+103,33,2,Towards Residential Area,City Mall near Indraprastha
+104,33,3,Towards East Avenue,Police Station near Indraprastha
+105,34,1,Towards Bus Stand,Local Market near Yamuna Bank
+106,34,2,Towards Bus Stand,PVR Cinemas near Yamuna Bank
+107,35,1,Towards Commercial Hub,University near Akshardham
+108,35,2,Towards Commercial Hub,Bus Terminus near Akshardham
+109,35,3,Towards West Avenue,Local Market near Akshardham
+110,36,1,Towards West Avenue,PVR Cinemas near Mayur Vihar-I
+111,36,2,Towards Residential Area,City Mall near Mayur Vihar-I
+112,37,1,Towards Main Road,Central Park near Mayur Vihar Extension
+113,37,2,Towards Bus Stand,Hospital near Mayur Vihar Extension
+114,37,3,Towards East Avenue,Sports Complex near Mayur Vihar Extension
+115,37,4,Towards West Avenue,Local Market near Mayur Vihar Extension
+116,38,1,Towards Main Road,Hospital near New Ashok Nagar
+117,38,2,Towards East Avenue,City Mall near New Ashok Nagar
+118,38,3,Towards East Avenue,Bus Terminus near New Ashok Nagar
+119,39,1,Towards North Block,University near Noida Sector 15
+120,39,2,Towards West Avenue,Hospital near Noida Sector 15
+121,39,3,Towards Bus Stand,Bus Terminus near Noida Sector 15
+122,40,1,Towards Main Road,Bank Branch near Noida Sector 16
+123,40,2,Towards Main Road,Police Station near Noida Sector 16
+124,41,1,Towards Main Road,Bank Branch near Noida Sector 18
+125,41,2,Towards West Avenue,PVR Cinemas near Noida Sector 18
+126,42,1,Towards Commercial Hub,City Mall near Botanical Garden
+127,42,2,Towards Residential Area,Hospital near Botanical Garden
+128,42,3,Towards Residential Area,Bank Branch near Botanical Garden
+129,42,4,Towards Residential Area,Post Office near Botanical Garden
+130,43,1,Towards East Avenue,Central Park near Golf Course
+131,43,2,Towards Bus Stand,Bank Branch near Golf Course
+132,44,1,Towards Main Road,Bank Branch near Noida City Centre
+133,44,2,Towards Residential Area,University near Noida City Centre
+134,44,3,Towards South Block,Bus Terminus near Noida City Centre
+135,44,4,Towards Bus Stand,Post Office near Noida City Centre
+136,45,1,Towards South Block,Local Market near Noida Sector 34
+137,45,2,Towards North Block,University near Noida Sector 34
+138,45,3,Towards Commercial Hub,Post Office near Noida Sector 34
+139,45,4,Towards North Block,Sports Complex near Noida Sector 34
+140,46,1,Towards Residential Area,City Mall near Noida Sector 52
+141,46,2,Towards West Avenue,Bank Branch near Noida Sector 52
+142,46,3,Towards Residential Area,Central Park near Noida Sector 52
+143,47,1,Towards Bus Stand,PVR Cinemas near Noida Sector 61
+144,47,2,Towards North Block,Hospital near Noida Sector 61
+145,47,3,Towards South Block,Central Park near Noida Sector 61
+146,47,4,Towards Bus Stand,Police Station near Noida Sector 61
+147,48,1,Towards Commercial Hub,Sports Complex near Noida Sector 59
+148,48,2,Towards North Block,Bank Branch near Noida Sector 59
+149,48,3,Towards Main Road,Post Office near Noida Sector 59
+150,49,1,Towards North Block,Post Office near Noida Sector 62
+151,49,2,Towards Residential Area,Hospital near Noida Sector 62
+152,49,3,Towards North Block,Central Park near Noida Sector 62
+153,49,4,Towards Residential Area,PVR Cinemas near Noida Sector 62
+154,50,1,Towards North Block,Bus Terminus near Noida Electronic City
+155,50,2,Towards Bus Stand,Police Station near Noida Electronic City
+156,51,1,Towards North Block,PVR Cinemas near Laxmi Nagar
+157,51,2,Towards West Avenue,Bus Terminus near Laxmi Nagar
+158,52,1,Towards Residential Area,Post Office near Nirman Vihar
+159,52,2,Towards East Avenue,Bus Terminus near Nirman Vihar
+160,53,1,Towards Main Road,Police Station near Preet Vihar
+161,53,2,Towards Commercial Hub,Post Office near Preet Vihar
+162,54,1,Towards Commercial Hub,Sports Complex near Karkarduma
+163,54,2,Towards East Avenue,PVR Cinemas near Karkarduma
+164,54,3,Towards Main Road,Central Park near Karkarduma
+165,55,1,Towards Commercial Hub,PVR Cinemas near Anand Vihar
+166,55,2,Towards Main Road,Police Station near Anand Vihar
+167,56,1,Towards Commercial Hub,University near Kaushambi
+168,56,2,Towards Commercial Hub,City Mall near Kaushambi
+169,56,3,Towards North Block,Police Station near Kaushambi
+170,56,4,Towards Main Road,Police Station near Kaushambi
+171,57,1,Towards Bus Stand,Post Office near Vaishali
+172,57,2,Towards Residential Area,Police Station near Vaishali
+173,58,1,Towards East Avenue,Bank Branch near Inderlok
+174,58,2,Towards Commercial Hub,Local Market near Inderlok
+175,58,3,Towards Commercial Hub,Hospital near Inderlok
+176,58,4,Towards East Avenue,City Mall near Inderlok
+177,59,1,Towards South Block,University near Ashok Park Main
+178,59,2,Towards Bus Stand,Bus Terminus near Ashok Park Main
+179,60,1,Towards Residential Area,University near Punjabi Bagh / Punjabi Bagh West
+180,60,2,Towards Main Road,Sports Complex near Punjabi Bagh / Punjabi Bagh West
+181,61,1,Towards Bus Stand,Sports Complex near Shivaji Park
+182,61,2,Towards South Block,Bus Terminus near Shivaji Park
+183,62,1,Towards Bus Stand,City Mall near Madipur
+184,62,2,Towards Bus Stand,University near Madipur
+185,63,1,Towards North Block,Central Park near Paschim Vihar East
+186,63,2,Towards North Block,Police Station near Paschim Vihar East
+187,63,3,Towards East Avenue,Post Office near Paschim Vihar East
+188,64,1,Towards South Block,City Mall near Paschim Vihar West
+189,64,2,Towards Residential Area,Bus Terminus near Paschim Vihar West
+190,64,3,Towards Commercial Hub,Bank Branch near Paschim Vihar West
+191,64,4,Towards North Block,City Mall near Paschim Vihar West
+192,65,1,Towards East Avenue,Police Station near Peera Garhi
+193,65,2,Towards South Block,University near Peera Garhi
+194,66,1,Towards Residential Area,University near Udyog Nagar
+195,66,2,Towards Bus Stand,Bus Terminus near Udyog Nagar
+196,66,3,Towards Main Road,University near Udyog Nagar
+197,66,4,Towards Main Road,PVR Cinemas near Udyog Nagar
+198,67,1,Towards Bus Stand,Police Station near Surajmal Stadium
+199,67,2,Towards East Avenue,Central Park near Surajmal Stadium
+200,67,3,Towards South Block,Bank Branch near Surajmal Stadium
+201,67,4,Towards South Block,Post Office near Surajmal Stadium
+202,68,1,Towards North Block,PVR Cinemas near Nangloi
+203,68,2,Towards North Block,Post Office near Nangloi
+204,69,1,Towards South Block,University near Nangloi Railway Station
+205,69,2,Towards North Block,PVR Cinemas near Nangloi Railway Station
+206,69,3,Towards Commercial Hub,Local Market near Nangloi Railway Station
+207,70,1,Towards East Avenue,Post Office near Rajdhani Park
+208,70,2,Towards Commercial Hub,Bank Branch near Rajdhani Park
+209,70,3,Towards North Block,University near Rajdhani Park
+210,71,1,Towards Main Road,Bus Terminus near Mundka
+211,71,2,Towards North Block,Local Market near Mundka
+212,71,3,Towards East Avenue,Bank Branch near Mundka
+213,71,4,Towards South Block,Sports Complex near Mundka
+214,72,1,Towards West Avenue,Post Office near Mundka Industrial Area
+215,72,2,Towards Bus Stand,PVR Cinemas near Mundka Industrial Area
+216,72,3,Towards West Avenue,Hospital near Mundka Industrial Area
+217,73,1,Towards Residential Area,Bus Terminus near Ghevra
+218,73,2,Towards South Block,Central Park near Ghevra
+219,73,3,Towards Bus Stand,Post Office near Ghevra
+220,73,4,Towards North Block,Local Market near Ghevra
+221,74,1,Towards Commercial Hub,City Mall near Tikri Kalan
+222,74,2,Towards Main Road,Local Market near Tikri Kalan
+223,75,1,Towards Residential Area,Sports Complex near Tikri Border
+224,75,2,Towards East Avenue,Post Office near Tikri Border
+225,75,3,Towards Bus Stand,University near Tikri Border
+226,76,1,Towards East Avenue,Local Market near Pandit Shree Ram Sharma
+227,76,2,Towards Commercial Hub,Post Office near Pandit Shree Ram Sharma
+228,76,3,Towards Main Road,Central Park near Pandit Shree Ram Sharma
+229,77,1,Towards Bus Stand,Hospital near Bahadurgarh City
+230,77,2,Towards West Avenue,City Mall near Bahadurgarh City
+231,77,3,Towards Bus Stand,Central Park near Bahadurgarh City
+232,78,1,Towards Commercial Hub,Sports Complex near Brigadier Hoshiyar Singh
+233,78,2,Towards South Block,Sports Complex near Brigadier Hoshiyar Singh
+234,78,3,Towards East Avenue,PVR Cinemas near Brigadier Hoshiyar Singh
+235,79,1,Towards Commercial Hub,Sports Complex near Kirti Nagar
+236,79,2,Towards West Avenue,Bus Terminus near Kirti Nagar
+237,79,3,Towards Bus Stand,Post Office near Kirti Nagar
+238,80,1,Towards West Avenue,Post Office near Satguru Ram Singh Marg
+239,80,2,Towards Bus Stand,Bus Terminus near Satguru Ram Singh Marg
+240,80,3,Towards West Avenue,Central Park near Satguru Ram Singh Marg
+241,81,1,Towards North Block,Local Market near Dwarka
+242,81,2,Towards North Block,Police Station near Dwarka
+243,81,3,Towards South Block,PVR Cinemas near Dwarka
+244,81,4,Towards Residential Area,Hospital near Dwarka
+245,82,1,Towards Bus Stand,University near Nangli
+246,82,2,Towards Commercial Hub,Local Market near Nangli
+247,83,1,Towards East Avenue,University near Najafgarh
+248,83,2,Towards South Block,PVR Cinemas near Najafgarh
+249,84,1,Towards East Avenue,City Mall near Dhansa Bus Stand
+250,84,2,Towards Bus Stand,University near Dhansa Bus Stand
+251,84,3,Towards East Avenue,Bank Branch near Dhansa Bus Stand
+252,85,1,Towards Main Road,Bank Branch near Janakpuri West
+253,85,2,Towards East Avenue,Sports Complex near Janakpuri West
+254,85,3,Towards Main Road,Police Station near Janakpuri West
+255,85,4,Towards North Block,University near Janakpuri West
+256,86,1,Towards Bus Stand,Sports Complex near Dabri Mor - South Janakpuri
+257,86,2,Towards Bus Stand,Bus Terminus near Dabri Mor - South Janakpuri
+258,86,3,Towards East Avenue,Sports Complex near Dabri Mor - South Janakpuri
+259,87,1,Towards East Avenue,Police Station near Dashrath Puri
+260,87,2,Towards East Avenue,Hospital near Dashrath Puri
+261,88,1,Towards Commercial Hub,Bank Branch near Palam
+262,88,2,Towards Main Road,University near Palam
+263,88,3,Towards Main Road,Central Park near Palam
+264,89,1,Towards East Avenue,Hospital near Sadar Bazar Cantonment
+265,89,2,Towards West Avenue,Hospital near Sadar Bazar Cantonment
+266,89,3,Towards Main Road,Bus Terminus near Sadar Bazar Cantonment
+267,89,4,Towards East Avenue,Police Station near Sadar Bazar Cantonment
+268,90,1,Towards West Avenue,Police Station near Terminal 1 IGI Airport
+269,90,2,Towards South Block,University near Terminal 1 IGI Airport
+270,91,1,Towards East Avenue,Bus Terminus near Shankar Vihar
+271,91,2,Towards Residential Area,Sports Complex near Shankar Vihar
+272,91,3,Towards Main Road,PVR Cinemas near Shankar Vihar
+273,92,1,Towards South Block,Local Market near Vasant Vihar
+274,92,2,Towards Residential Area,Post Office near Vasant Vihar
+275,93,1,Towards Main Road,Local Market near Munirka
+276,93,2,Towards Bus Stand,City Mall near Munirka
+277,94,1,Towards Commercial Hub,Local Market near R.K. Puram
+278,94,2,Towards Commercial Hub,Sports Complex near R.K. Puram
+279,94,3,Towards Residential Area,Bank Branch near R.K. Puram
+280,94,4,Towards Bus Stand,Sports Complex near R.K. Puram
+281,95,1,Towards North Block,Police Station near IIT Delhi
+282,95,2,Towards Commercial Hub,Bank Branch near IIT Delhi
+283,95,3,Towards Residential Area,Hospital near IIT Delhi
+284,95,4,Towards North Block,Central Park near IIT Delhi
+285,96,1,Towards Main Road,Bus Terminus near Hauz Khas
+286,96,2,Towards East Avenue,University near Hauz Khas
+287,96,3,Towards Bus Stand,Central Park near Hauz Khas
+288,96,4,Towards Bus Stand,Central Park near Hauz Khas
+289,97,1,Towards North Block,Post Office near Panchsheel Park
+290,97,2,Towards Residential Area,Bank Branch near Panchsheel Park
+291,97,3,Towards Main Road,Police Station near Panchsheel Park
+292,97,4,Towards East Avenue,Post Office near Panchsheel Park
+293,98,1,Towards Residential Area,PVR Cinemas near Chirag Delhi
+294,98,2,Towards South Block,City Mall near Chirag Delhi
+295,98,3,Towards East Avenue,Sports Complex near Chirag Delhi
+296,99,1,Towards East Avenue,Police Station near Greater Kailash
+297,99,2,Towards West Avenue,Hospital near Greater Kailash
+298,100,1,Towards Commercial Hub,PVR Cinemas near Nehru Enclave
+299,100,2,Towards North Block,Bank Branch near Nehru Enclave
+300,100,3,Towards West Avenue,Sports Complex near Nehru Enclave
+301,101,1,Towards North Block,Police Station near Kalkaji Mandir
+302,101,2,Towards Bus Stand,Central Park near Kalkaji Mandir
+303,101,3,Towards North Block,Sports Complex near Kalkaji Mandir
+304,102,1,Towards West Avenue,Bank Branch near Okhla NSIC
+305,102,2,Towards East Avenue,Police Station near Okhla NSIC
+306,103,1,Towards West Avenue,Police Station near Sukhdev Vihar
+307,103,2,Towards Commercial Hub,Sports Complex near Sukhdev Vihar
+308,104,1,Towards South Block,Bus Terminus near Jamia Millia Islamia
+309,104,2,Towards South Block,Bus Terminus near Jamia Millia Islamia
+310,105,1,Towards North Block,PVR Cinemas near Okhla Vihar
+311,105,2,Towards Main Road,PVR Cinemas near Okhla Vihar
+312,105,3,Towards Bus Stand,Central Park near Okhla Vihar
+313,105,4,Towards Bus Stand,University near Okhla Vihar
+314,106,1,Towards Bus Stand,Sports Complex near Jasola Vihar Shaheen Bagh
+315,106,2,Towards West Avenue,Sports Complex near Jasola Vihar Shaheen Bagh
+316,106,3,Towards Main Road,Central Park near Jasola Vihar Shaheen Bagh
+317,107,1,Towards Bus Stand,University near Kalindi Kunj
+318,107,2,Towards Bus Stand,Bus Terminus near Kalindi Kunj
+319,107,3,Towards South Block,Sports Complex near Kalindi Kunj
+320,108,1,Towards South Block,University near Okhla Bird Sanctuary
+321,108,2,Towards South Block,Police Station near Okhla Bird Sanctuary
+322,108,3,Towards West Avenue,Bus Terminus near Okhla Bird Sanctuary
+323,108,4,Towards North Block,Bus Terminus near Okhla Bird Sanctuary
+324,109,1,Towards Residential Area,Local Market near Botanical Garden
+325,109,2,Towards South Block,Central Park near Botanical Garden
+326,110,1,Towards Commercial Hub,Local Market near New Delhi
+327,110,2,Towards Bus Stand,Sports Complex near New Delhi
+328,110,3,Towards North Block,Bank Branch near New Delhi
+329,110,4,Towards North Block,Central Park near New Delhi
+330,111,1,Towards North Block,Local Market near Shivaji Stadium
+331,111,2,Towards South Block,Hospital near Shivaji Stadium
+332,112,1,Towards Main Road,PVR Cinemas near Dhaula Kuan / Durgabai Deshmukh South Campus
+333,112,2,Towards Commercial Hub,Bus Terminus near Dhaula Kuan / Durgabai Deshmukh South Campus
+334,112,3,Towards Main Road,City Mall near Dhaula Kuan / Durgabai Deshmukh South Campus
+335,113,1,Towards North Block,Hospital near Delhi Aerocity
+336,113,2,Towards West Avenue,Central Park near Delhi Aerocity
+337,113,3,Towards Main Road,Bank Branch near Delhi Aerocity
+338,113,4,Towards North Block,Sports Complex near Delhi Aerocity
+339,114,1,Towards West Avenue,Police Station near IGI Airport
+340,114,2,Towards Commercial Hub,City Mall near IGI Airport
+341,114,3,Towards North Block,Sports Complex near IGI Airport
+342,115,1,Towards Residential Area,University near Dwarka Sector 21
+343,115,2,Towards West Avenue,Central Park near Dwarka Sector 21
+344,116,1,Towards Main Road,Hospital near Yashobhoomi Dwarka Sector 25
+345,116,2,Towards Commercial Hub,Bank Branch near Yashobhoomi Dwarka Sector 25
+346,116,3,Towards North Block,Central Park near Yashobhoomi Dwarka Sector 25
+347,116,4,Towards Bus Stand,Central Park near Yashobhoomi Dwarka Sector 25
+348,117,1,Towards East Avenue,Bank Branch near Majlis Park
+349,117,2,Towards Bus Stand,PVR Cinemas near Majlis Park
+350,117,3,Towards East Avenue,Sports Complex near Majlis Park
+351,117,4,Towards West Avenue,Bus Terminus near Majlis Park
+352,118,1,Towards East Avenue,Bus Terminus near Azadpur
+353,118,2,Towards Main Road,Bank Branch near Azadpur
+354,118,3,Towards Residential Area,Local Market near Azadpur
+355,118,4,Towards Bus Stand,Bus Terminus near Azadpur
+356,119,1,Towards Residential Area,Hospital near Shalimar Bagh
+357,119,2,Towards Bus Stand,Hospital near Shalimar Bagh
+358,119,3,Towards Residential Area,Hospital near Shalimar Bagh
+359,119,4,Towards Main Road,University near Shalimar Bagh
+360,120,1,Towards West Avenue,Bus Terminus near Netaji Subhash Place
+361,120,2,Towards Main Road,Local Market near Netaji Subhash Place
+362,120,3,Towards North Block,Bus Terminus near Netaji Subhash Place
+363,121,1,Towards West Avenue,Central Park near Shakurpur
+364,121,2,Towards Bus Stand,Bus Terminus near Shakurpur
+365,121,3,Towards Bus Stand,University near Shakurpur
+366,121,4,Towards Residential Area,PVR Cinemas near Shakurpur
+367,122,1,Towards Commercial Hub,Bus Terminus near Punjabi Bagh / Punjabi Bagh West
+368,122,2,Towards Commercial Hub,Central Park near Punjabi Bagh / Punjabi Bagh West
+369,123,1,Towards Commercial Hub,Bus Terminus near ESI - Basaidarapur
+370,123,2,Towards North Block,Sports Complex near ESI - Basaidarapur
+371,124,1,Towards West Avenue,Bus Terminus near Rajouri Garden
+372,124,2,Towards East Avenue,Bus Terminus near Rajouri Garden
+373,125,1,Towards West Avenue,Sports Complex near Maya Enclave
+374,125,2,Towards Residential Area,Bank Branch near Maya Enclave
+375,125,3,Towards Main Road,University near Maya Enclave
+376,125,4,Towards South Block,Bank Branch near Maya Enclave
+377,126,1,Towards Main Road,Central Park near Naraina Vihar
+378,126,2,Towards Bus Stand,Post Office near Naraina Vihar
+379,126,3,Towards Main Road,Post Office near Naraina Vihar
+380,127,1,Towards Main Road,Hospital near Delhi Cantt
+381,127,2,Towards West Avenue,PVR Cinemas near Delhi Cantt
+382,127,3,Towards West Avenue,Bus Terminus near Delhi Cantt
+383,128,1,Towards East Avenue,Post Office near Dhaula Kuan / Durgabai Deshmukh South Campus
+384,128,2,Towards West Avenue,Central Park near Dhaula Kuan / Durgabai Deshmukh South Campus
+385,129,1,Towards South Block,University near Sir Vishweshwaraiah Moti Bagh
+386,129,2,Towards South Block,Police Station near Sir Vishweshwaraiah Moti Bagh
+387,129,3,Towards Residential Area,Hospital near Sir Vishweshwaraiah Moti Bagh
+388,130,1,Towards East Avenue,Sports Complex near Bhikaji Cama Place
+389,130,2,Towards North Block,Post Office near Bhikaji Cama Place
+390,130,3,Towards East Avenue,PVR Cinemas near Bhikaji Cama Place
+391,131,1,Towards West Avenue,Central Park near Sarojini Nagar
+392,131,2,Towards South Block,Bus Terminus near Sarojini Nagar
+393,132,1,Towards Residential Area,University near Dilli Haat - INA
+394,132,2,Towards Main Road,Post Office near Dilli Haat - INA
+395,132,3,Towards West Avenue,University near Dilli Haat - INA
+396,133,1,Towards Bus Stand,PVR Cinemas near South Extension
+397,133,2,Towards South Block,Bank Branch near South Extension
+398,134,1,Towards West Avenue,City Mall near Lajpat Nagar
+399,134,2,Towards Bus Stand,Bus Terminus near Lajpat Nagar
+400,134,3,Towards Commercial Hub,Bus Terminus near Lajpat Nagar
+401,135,1,Towards West Avenue,Central Park near Vinobapuri
+402,135,2,Towards Main Road,Post Office near Vinobapuri
+403,135,3,Towards Bus Stand,Hospital near Vinobapuri
+404,136,1,Towards Main Road,PVR Cinemas near Ashram
+405,136,2,Towards East Avenue,Central Park near Ashram
+406,136,3,Towards Bus Stand,Central Park near Ashram
+407,137,1,Towards Residential Area,Post Office near Hazrat Nizamuddin
+408,137,2,Towards Commercial Hub,Sports Complex near Hazrat Nizamuddin
+409,137,3,Towards North Block,PVR Cinemas near Hazrat Nizamuddin
+410,138,1,Towards North Block,University near Mayur Vihar-I
+411,138,2,Towards West Avenue,Sports Complex near Mayur Vihar-I
+412,138,3,Towards Bus Stand,Sports Complex near Mayur Vihar-I
+413,138,4,Towards Commercial Hub,University near Mayur Vihar-I
+414,139,1,Towards Commercial Hub,Central Park near Mayur Vihar Pocket I
+415,139,2,Towards North Block,University near Mayur Vihar Pocket I
+416,140,1,Towards North Block,City Mall near Trilokpuri Sanjay Lake
+417,140,2,Towards North Block,Bus Terminus near Trilokpuri Sanjay Lake
+418,140,3,Towards West Avenue,Hospital near Trilokpuri Sanjay Lake
+419,141,1,Towards West Avenue,Police Station near East Vinod Nagar - Mayur Vihar-II
+420,141,2,Towards South Block,PVR Cinemas near East Vinod Nagar - Mayur Vihar-II
+421,141,3,Towards East Avenue,Sports Complex near East Vinod Nagar - Mayur Vihar-II
+422,142,1,Towards Bus Stand,Local Market near Mandawali - West Vinod Nagar
+423,142,2,Towards East Avenue,Local Market near Mandawali - West Vinod Nagar
+424,142,3,Towards East Avenue,City Mall near Mandawali - West Vinod Nagar
+425,143,1,Towards West Avenue,University near IP Extension
+426,143,2,Towards East Avenue,Post Office near IP Extension
+427,143,3,Towards Commercial Hub,Sports Complex near IP Extension
+428,144,1,Towards Commercial Hub,PVR Cinemas near Anand Vihar
+429,144,2,Towards South Block,Central Park near Anand Vihar
+430,145,1,Towards Residential Area,PVR Cinemas near Karkarduma
+431,145,2,Towards West Avenue,City Mall near Karkarduma
+432,145,3,Towards Commercial Hub,University near Karkarduma
+433,146,1,Towards Commercial Hub,Central Park near Karkarduma Court
+434,146,2,Towards West Avenue,Bus Terminus near Karkarduma Court
+435,146,3,Towards South Block,Bank Branch near Karkarduma Court
+436,146,4,Towards East Avenue,Post Office near Karkarduma Court
+437,147,1,Towards South Block,Post Office near Krishna Nagar
+438,147,2,Towards East Avenue,Police Station near Krishna Nagar
+439,148,1,Towards West Avenue,PVR Cinemas near East Azad Nagar
+440,148,2,Towards Main Road,Bank Branch near East Azad Nagar
+441,148,3,Towards Residential Area,Local Market near East Azad Nagar
+442,148,4,Towards North Block,Local Market near East Azad Nagar
+443,149,1,Towards Residential Area,University near Welcome
+444,149,2,Towards Residential Area,Post Office near Welcome
+445,149,3,Towards Residential Area,Sports Complex near Welcome
+446,149,4,Towards Commercial Hub,Bus Terminus near Welcome
+447,150,1,Towards Main Road,Police Station near Jaffrabad
+448,150,2,Towards Main Road,Bus Terminus near Jaffrabad
+449,151,1,Towards South Block,University near Maujpur - Babarpur
+450,151,2,Towards Commercial Hub,Local Market near Maujpur - Babarpur
+451,151,3,Towards East Avenue,Bank Branch near Maujpur - Babarpur
+452,152,1,Towards Commercial Hub,Hospital near Gokulpuri
+453,152,2,Towards Commercial Hub,Central Park near Gokulpuri
+454,152,3,Towards East Avenue,Bank Branch near Gokulpuri
+455,152,4,Towards Bus Stand,Sports Complex near Gokulpuri
+456,153,1,Towards Commercial Hub,Local Market near Johri Enclave
+457,153,2,Towards West Avenue,Post Office near Johri Enclave
+458,153,3,Towards North Block,Sports Complex near Johri Enclave
+459,153,4,Towards North Block,Post Office near Johri Enclave
+460,154,1,Towards West Avenue,Bus Terminus near Shiv Vihar
+461,154,2,Towards Commercial Hub,Central Park near Shiv Vihar
+462,155,1,Towards South Block,Bank Branch near Shaheed Sthal
+463,155,2,Towards North Block,Post Office near Shaheed Sthal
+464,155,3,Towards East Avenue,Bus Terminus near Shaheed Sthal
+465,156,1,Towards North Block,Local Market near Hindon River
+466,156,2,Towards East Avenue,Sports Complex near Hindon River
+467,156,3,Towards Residential Area,Local Market near Hindon River
+468,157,1,Towards South Block,Bank Branch near Arthala
+469,157,2,Towards North Block,Bus Terminus near Arthala
+470,157,3,Towards Main Road,Post Office near Arthala
+471,158,1,Towards North Block,City Mall near Mohan Nagar
+472,158,2,Towards Main Road,Bank Branch near Mohan Nagar
+473,158,3,Towards West Avenue,Bus Terminus near Mohan Nagar
+474,159,1,Towards South Block,Local Market near Shyam park
+475,159,2,Towards Bus Stand,Bank Branch near Shyam park
+476,160,1,Towards Commercial Hub,Post Office near Major Mohit Sharma
+477,160,2,Towards Residential Area,Post Office near Major Mohit Sharma
+478,160,3,Towards Main Road,Bus Terminus near Major Mohit Sharma
+479,161,1,Towards Main Road,Bank Branch near Raj Bagh
+480,161,2,Towards South Block,Hospital near Raj Bagh
+481,161,3,Towards Residential Area,Bus Terminus near Raj Bagh
+482,162,1,Towards East Avenue,Hospital near Shaheed Nagar
+483,162,2,Towards Bus Stand,Hospital near Shaheed Nagar
+484,162,3,Towards South Block,PVR Cinemas near Shaheed Nagar
+485,163,1,Towards North Block,Hospital near Dilshad Garden
+486,163,2,Towards North Block,Sports Complex near Dilshad Garden
+487,163,3,Towards North Block,Police Station near Dilshad Garden
+488,163,4,Towards Residential Area,Sports Complex near Dilshad Garden
+489,164,1,Towards Commercial Hub,Local Market near Jhilmil
+490,164,2,Towards East Avenue,PVR Cinemas near Jhilmil
+491,165,1,Towards Residential Area,University near Mansarovar Park
+492,165,2,Towards Main Road,Bus Terminus near Mansarovar Park
+493,165,3,Towards Residential Area,Sports Complex near Mansarovar Park
+494,166,1,Towards North Block,Bank Branch near Shahdara
+495,166,2,Towards East Avenue,Post Office near Shahdara
+496,166,3,Towards South Block,Central Park near Shahdara
+497,167,1,Towards Bus Stand,Sports Complex near Welcome
+498,167,2,Towards Main Road,Bank Branch near Welcome
+499,167,3,Towards South Block,Bank Branch near Welcome
+500,167,4,Towards Bus Stand,Post Office near Welcome
+501,168,1,Towards West Avenue,Bus Terminus near Seelampur
+502,168,2,Towards East Avenue,Central Park near Seelampur
+503,169,1,Towards Main Road,City Mall near Shastri Park
+504,169,2,Towards North Block,Sports Complex near Shastri Park
+505,170,1,Towards Residential Area,Local Market near Kashmere Gate
+506,170,2,Towards Commercial Hub,University near Kashmere Gate
+507,171,1,Towards South Block,Post Office near Tis Hazari
+508,171,2,Towards East Avenue,Bank Branch near Tis Hazari
+509,171,3,Towards Commercial Hub,University near Tis Hazari
+510,172,1,Towards Residential Area,Sports Complex near Pul Bangash
+511,172,2,Towards East Avenue,Bus Terminus near Pul Bangash
+512,172,3,Towards Main Road,Police Station near Pul Bangash
+513,172,4,Towards Bus Stand,Sports Complex near Pul Bangash
+514,173,1,Towards Bus Stand,Police Station near Pratap Nagar
+515,173,2,Towards Residential Area,Post Office near Pratap Nagar
+516,173,3,Towards South Block,PVR Cinemas near Pratap Nagar
+517,174,1,Towards South Block,City Mall near Shastri Nagar
+518,174,2,Towards East Avenue,Bus Terminus near Shastri Nagar
+519,174,3,Towards Bus Stand,Central Park near Shastri Nagar
+520,174,4,Towards West Avenue,Central Park near Shastri Nagar
+521,175,1,Towards Bus Stand,Post Office near Inderlok
+522,175,2,Towards Main Road,City Mall near Inderlok
+523,175,3,Towards South Block,Local Market near Inderlok
+524,175,4,Towards Commercial Hub,Bank Branch near Inderlok
+525,176,1,Towards Residential Area,PVR Cinemas near Kanhaiya Nagar
+526,176,2,Towards Bus Stand,Bank Branch near Kanhaiya Nagar
+527,177,1,Towards Bus Stand,Police Station near Keshav Puram
+528,177,2,Towards Commercial Hub,Bank Branch near Keshav Puram
+529,178,1,Towards North Block,Hospital near Netaji Subhash Place
+530,178,2,Towards Commercial Hub,PVR Cinemas near Netaji Subhash Place
+531,179,1,Towards Commercial Hub,Central Park near Kohat Enclave
+532,179,2,Towards Main Road,Hospital near Kohat Enclave
+533,179,3,Towards Main Road,Police Station near Kohat Enclave
+534,180,1,Towards South Block,City Mall near Pitampura
+535,180,2,Towards Commercial Hub,Bus Terminus near Pitampura
+536,181,1,Towards Commercial Hub,University near Rohini East
+537,181,2,Towards Residential Area,Central Park near Rohini East
+538,182,1,Towards West Avenue,Police Station near Rohini West
+539,182,2,Towards Residential Area,Sports Complex near Rohini West
+540,182,3,Towards Bus Stand,Bank Branch near Rohini West
+541,183,1,Towards North Block,Sports Complex near Rithala
+542,183,2,Towards Main Road,City Mall near Rithala
+543,184,1,Towards East Avenue,University near Kashmere Gate
+544,184,2,Towards Residential Area,Sports Complex near Kashmere Gate
+545,184,3,Towards West Avenue,Central Park near Kashmere Gate
+546,185,1,Towards South Block,Bank Branch near Lal Quila
+547,185,2,Towards Commercial Hub,Central Park near Lal Quila
+548,186,1,Towards North Block,Bank Branch near Jama Masjid
+549,186,2,Towards South Block,University near Jama Masjid
+550,187,1,Towards North Block,Sports Complex near Delhi Gate
+551,187,2,Towards East Avenue,Central Park near Delhi Gate
+552,187,3,Towards Residential Area,Post Office near Delhi Gate
+553,187,4,Towards Bus Stand,University near Delhi Gate
+554,188,1,Towards Bus Stand,University near ITO
+555,188,2,Towards South Block,Sports Complex near ITO
+556,188,3,Towards East Avenue,University near ITO
+557,189,1,Towards Residential Area,Police Station near Mandi House
+558,189,2,Towards East Avenue,Police Station near Mandi House
+559,189,3,Towards North Block,Police Station near Mandi House
+560,189,4,Towards Commercial Hub,Post Office near Mandi House
+561,190,1,Towards Residential Area,Central Park near Janpath
+562,190,2,Towards Residential Area,Central Park near Janpath
+563,190,3,Towards East Avenue,Central Park near Janpath
+564,191,1,Towards South Block,Hospital near Central Secretariat
+565,191,2,Towards Main Road,Bank Branch near Central Secretariat
+566,191,3,Towards South Block,Post Office near Central Secretariat
+567,191,4,Towards Residential Area,University near Central Secretariat
+568,192,1,Towards East Avenue,City Mall near Khan Market
+569,192,2,Towards North Block,Bank Branch near Khan Market
+570,192,3,Towards North Block,Police Station near Khan Market
+571,193,1,Towards Bus Stand,Hospital near Jawaharlal Nehru Stadium
+572,193,2,Towards West Avenue,Local Market near Jawaharlal Nehru Stadium
+573,194,1,Towards South Block,PVR Cinemas near Jangpura
+574,194,2,Towards South Block,Central Park near Jangpura
+575,195,1,Towards Bus Stand,University near Lajpat Nagar
+576,195,2,Towards Main Road,Bank Branch near Lajpat Nagar
+577,195,3,Towards North Block,City Mall near Lajpat Nagar
+578,196,1,Towards North Block,Bus Terminus near Moolchand
+579,196,2,Towards South Block,Police Station near Moolchand
+580,197,1,Towards Commercial Hub,Hospital near Kailash Colony
+581,197,2,Towards East Avenue,Central Park near Kailash Colony
+582,198,1,Towards Main Road,Central Park near Nehru Place
+583,198,2,Towards Bus Stand,University near Nehru Place
+584,199,1,Towards West Avenue,Police Station near Kalkaji Mandir
+585,199,2,Towards Commercial Hub,Police Station near Kalkaji Mandir
+586,199,3,Towards North Block,Police Station near Kalkaji Mandir
+587,200,1,Towards Residential Area,City Mall near Govind Puri
+588,200,2,Towards Commercial Hub,Hospital near Govind Puri
+589,200,3,Towards Main Road,Post Office near Govind Puri
+590,200,4,Towards Residential Area,Bus Terminus near Govind Puri
+591,201,1,Towards East Avenue,Sports Complex near Harkesh Nagar Okhla
+592,201,2,Towards West Avenue,University near Harkesh Nagar Okhla
+593,201,3,Towards North Block,Local Market near Harkesh Nagar Okhla
+594,202,1,Towards Residential Area,Police Station near Jasola Apollo
+595,202,2,Towards East Avenue,Central Park near Jasola Apollo
+596,202,3,Towards North Block,Post Office near Jasola Apollo
+597,202,4,Towards West Avenue,PVR Cinemas near Jasola Apollo
+598,203,1,Towards North Block,City Mall near Sarita Vihar
+599,203,2,Towards Bus Stand,University near Sarita Vihar
+600,203,3,Towards Main Road,City Mall near Sarita Vihar
+601,203,4,Towards Bus Stand,Bus Terminus near Sarita Vihar
+602,204,1,Towards Commercial Hub,Bus Terminus near Mohan Estate
+603,204,2,Towards North Block,Police Station near Mohan Estate
+604,205,1,Towards Main Road,Sports Complex near Tughlakabad Station
+605,205,2,Towards East Avenue,Hospital near Tughlakabad Station
+606,206,1,Towards East Avenue,PVR Cinemas near Badarpur Border
+607,206,2,Towards Bus Stand,PVR Cinemas near Badarpur Border
+608,207,1,Towards South Block,Central Park near Sarai
+609,207,2,Towards East Avenue,City Mall near Sarai
+610,207,3,Towards East Avenue,City Mall near Sarai
+611,207,4,Towards West Avenue,Central Park near Sarai
+612,208,1,Towards East Avenue,Bank Branch near NHPC Chowk
+613,208,2,Towards East Avenue,Post Office near NHPC Chowk
+614,208,3,Towards East Avenue,Bus Terminus near NHPC Chowk
+615,209,1,Towards East Avenue,City Mall near Mewala Maharajpur
+616,209,2,Towards South Block,Hospital near Mewala Maharajpur
+617,210,1,Towards West Avenue,Police Station near Sector 28
+618,210,2,Towards Residential Area,University near Sector 28
+619,210,3,Towards Residential Area,Local Market near Sector 28
+620,210,4,Towards East Avenue,Bank Branch near Sector 28
+621,211,1,Towards Residential Area,University near Badkal Mor
+622,211,2,Towards North Block,Police Station near Badkal Mor
+623,211,3,Towards Bus Stand,Police Station near Badkal Mor
+624,212,1,Towards Residential Area,PVR Cinemas near Old Faridabad
+625,212,2,Towards Residential Area,PVR Cinemas near Old Faridabad
+626,213,1,Towards Bus Stand,Police Station near Neelam Chowk Ajronda
+627,213,2,Towards South Block,Post Office near Neelam Chowk Ajronda
+628,213,3,Towards Commercial Hub,Local Market near Neelam Chowk Ajronda
+629,213,4,Towards Residential Area,Hospital near Neelam Chowk Ajronda
+630,214,1,Towards Bus Stand,Hospital near Bata Chowk
+631,214,2,Towards Commercial Hub,Post Office near Bata Chowk
+632,214,3,Towards Residential Area,Hospital near Bata Chowk
+633,215,1,Towards West Avenue,Sports Complex near Escorts Mujesar
+634,215,2,Towards West Avenue,Post Office near Escorts Mujesar
+635,215,3,Towards South Block,Post Office near Escorts Mujesar
+636,215,4,Towards South Block,Hospital near Escorts Mujesar
+637,216,1,Towards Residential Area,Sports Complex near Sant Surdas (Sihi)
+638,216,2,Towards West Avenue,Post Office near Sant Surdas (Sihi)
+639,216,3,Towards North Block,Bus Terminus near Sant Surdas (Sihi)
+640,217,1,Towards Main Road,Police Station near Raja Nahar Singh
+641,217,2,Towards Residential Area,Bus Terminus near Raja Nahar Singh
+642,217,3,Towards West Avenue,Sports Complex near Raja Nahar Singh
+643,217,4,Towards Main Road,City Mall near Raja Nahar Singh
+644,218,1,Towards North Block,Central Park near Samaypur Badli
+645,218,2,Towards Residential Area,Bank Branch near Samaypur Badli
+646,218,3,Towards East Avenue,Sports Complex near Samaypur Badli
+647,219,1,Towards Main Road,"Sports Complex near Rohini Sector 18, 19"
+648,219,2,Towards Bus Stand,"Police Station near Rohini Sector 18, 19"
+649,219,3,Towards West Avenue,"PVR Cinemas near Rohini Sector 18, 19"
+650,219,4,Towards Commercial Hub,"City Mall near Rohini Sector 18, 19"
+651,220,1,Towards Residential Area,Police Station near Haiderpur Badli Mor
+652,220,2,Towards Residential Area,PVR Cinemas near Haiderpur Badli Mor
+653,220,3,Towards Commercial Hub,City Mall near Haiderpur Badli Mor
+654,221,1,Towards West Avenue,Sports Complex near Jahangirpuri
+655,221,2,Towards Commercial Hub,Police Station near Jahangirpuri
+656,222,1,Towards North Block,University near Adarsh Nagar
+657,222,2,Towards East Avenue,Police Station near Adarsh Nagar
+658,222,3,Towards Main Road,Post Office near Adarsh Nagar
+659,223,1,Towards South Block,Central Park near Azadpur
+660,223,2,Towards South Block,Central Park near Azadpur
+661,223,3,Towards East Avenue,Bus Terminus near Azadpur
+662,223,4,Towards North Block,Post Office near Azadpur
+663,224,1,Towards Commercial Hub,Police Station near Model Town
+664,224,2,Towards Residential Area,Bank Branch near Model Town
+665,224,3,Towards Commercial Hub,Police Station near Model Town
+666,224,4,Towards North Block,Post Office near Model Town
+667,225,1,Towards East Avenue,Hospital near Guru Tegh Bahadur Nagar
+668,225,2,Towards Residential Area,Bus Terminus near Guru Tegh Bahadur Nagar
+669,225,3,Towards East Avenue,Post Office near Guru Tegh Bahadur Nagar
+670,225,4,Towards South Block,Hospital near Guru Tegh Bahadur Nagar
+671,226,1,Towards Residential Area,Post Office near Vishwavidyalaya
+672,226,2,Towards East Avenue,PVR Cinemas near Vishwavidyalaya
+673,226,3,Towards South Block,City Mall near Vishwavidyalaya
+674,226,4,Towards South Block,Bus Terminus near Vishwavidyalaya
+675,227,1,Towards Bus Stand,Police Station near Vidhan Sabha
+676,227,2,Towards West Avenue,Local Market near Vidhan Sabha
+677,228,1,Towards Commercial Hub,Hospital near Civil Lines
+678,228,2,Towards Residential Area,Bus Terminus near Civil Lines
+679,229,1,Towards Main Road,Post Office near Kashmere Gate
+680,229,2,Towards South Block,Bank Branch near Kashmere Gate
+681,230,1,Towards East Avenue,Hospital near Chandni Chowk
+682,230,2,Towards Commercial Hub,Hospital near Chandni Chowk
+683,231,1,Towards Commercial Hub,Sports Complex near Chawri Bazar
+684,231,2,Towards Main Road,University near Chawri Bazar
+685,231,3,Towards South Block,Post Office near Chawri Bazar
+686,231,4,Towards Bus Stand,Sports Complex near Chawri Bazar
+687,232,1,Towards North Block,Sports Complex near New Delhi
+688,232,2,Towards Bus Stand,PVR Cinemas near New Delhi
+689,232,3,Towards Bus Stand,Bus Terminus near New Delhi
+690,232,4,Towards West Avenue,Local Market near New Delhi
+691,233,1,Towards West Avenue,Sports Complex near Rajiv Chowk
+692,233,2,Towards North Block,University near Rajiv Chowk
+693,233,3,Towards East Avenue,Hospital near Rajiv Chowk
+694,234,1,Towards Commercial Hub,Bus Terminus near Patel Chowk
+695,234,2,Towards Main Road,Post Office near Patel Chowk
+696,235,1,Towards South Block,PVR Cinemas near Central Secretariat
+697,235,2,Towards Residential Area,PVR Cinemas near Central Secretariat
+698,235,3,Towards Residential Area,Bus Terminus near Central Secretariat
+699,236,1,Towards Commercial Hub,Bus Terminus near Udyog Bhawan
+700,236,2,Towards West Avenue,PVR Cinemas near Udyog Bhawan
+701,237,1,Towards East Avenue,Central Park near Lok Kalyan Marg
+702,237,2,Towards Bus Stand,Sports Complex near Lok Kalyan Marg
+703,238,1,Towards Main Road,University near Jor Bagh
+704,238,2,Towards Main Road,University near Jor Bagh
+705,238,3,Towards South Block,Local Market near Jor Bagh
+706,239,1,Towards Residential Area,Police Station near Dilli Haat - INA
+707,239,2,Towards Bus Stand,City Mall near Dilli Haat - INA
+708,239,3,Towards South Block,Central Park near Dilli Haat - INA
+709,240,1,Towards South Block,Hospital near AIIMS
+710,240,2,Towards Commercial Hub,City Mall near AIIMS
+711,240,3,Towards North Block,Sports Complex near AIIMS
+712,240,4,Towards Commercial Hub,Sports Complex near AIIMS
+713,241,1,Towards Main Road,Central Park near Green Park
+714,241,2,Towards Main Road,Bus Terminus near Green Park
+715,241,3,Towards Bus Stand,Hospital near Green Park
+716,242,1,Towards East Avenue,Central Park near Hauz Khas
+717,242,2,Towards North Block,Local Market near Hauz Khas
+718,242,3,Towards North Block,Central Park near Hauz Khas
+719,242,4,Towards Main Road,Local Market near Hauz Khas
+720,243,1,Towards West Avenue,Central Park near Malviya Nagar
+721,243,2,Towards Residential Area,Sports Complex near Malviya Nagar
+722,243,3,Towards Main Road,Post Office near Malviya Nagar
+723,244,1,Towards Bus Stand,Hospital near Saket
+724,244,2,Towards North Block,University near Saket
+725,244,3,Towards Main Road,Bank Branch near Saket
+726,244,4,Towards South Block,Local Market near Saket
+727,245,1,Towards East Avenue,Hospital near Qutab Minar
+728,245,2,Towards Residential Area,PVR Cinemas near Qutab Minar
+729,245,3,Towards South Block,Central Park near Qutab Minar
+730,245,4,Towards Main Road,University near Qutab Minar
+731,246,1,Towards Main Road,Post Office near Chhatarpur
+732,246,2,Towards East Avenue,Police Station near Chhatarpur
+733,246,3,Towards North Block,City Mall near Chhatarpur
+734,247,1,Towards Residential Area,Police Station near Sultanpur
+735,247,2,Towards Bus Stand,Post Office near Sultanpur
+736,247,3,Towards Residential Area,Bank Branch near Sultanpur
+737,248,1,Towards South Block,Hospital near Ghitorni
+738,248,2,Towards Main Road,Police Station near Ghitorni
+739,248,3,Towards South Block,Post Office near Ghitorni
+740,248,4,Towards Commercial Hub,Post Office near Ghitorni
+741,249,1,Towards West Avenue,Post Office near Arjan Garh
+742,249,2,Towards Commercial Hub,Hospital near Arjan Garh
+743,249,3,Towards Residential Area,Sports Complex near Arjan Garh
+744,250,1,Towards North Block,Local Market near Guru Dronacharya
+745,250,2,Towards Main Road,Local Market near Guru Dronacharya
+746,251,1,Towards South Block,Bus Terminus near Sikandarpur
+747,251,2,Towards East Avenue,PVR Cinemas near Sikandarpur
+748,252,1,Towards North Block,City Mall near MG Road
+749,252,2,Towards Bus Stand,Bus Terminus near MG Road
+750,252,3,Towards South Block,City Mall near MG Road
+751,253,1,Towards South Block,Bus Terminus near IFFCO Chowk
+752,253,2,Towards Residential Area,Police Station near IFFCO Chowk
+753,253,3,Towards East Avenue,University near IFFCO Chowk
+754,253,4,Towards West Avenue,University near IFFCO Chowk
+755,254,1,Towards Commercial Hub,Sports Complex near Millennium City Centre Gurugram
+756,254,2,Towards West Avenue,Police Station near Millennium City Centre Gurugram
+757,254,3,Towards North Block,Central Park near Millennium City Centre Gurugram

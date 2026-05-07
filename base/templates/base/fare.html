@@ -1,0 +1,58 @@
+{% extends 'main.html' %} {% load static %} {% block content %}
+
+<div class="home-layout">
+  <!-- LEFT SIDE -->
+  <div class="left-side">
+    <div class="header">
+      <h1>Plan your Metro Journey !</h1>
+    </div>
+
+    <form method="POST">
+      {% csrf_token %}
+
+      <div class="journey-box">
+        <select name="source" required>
+          <option selected disabled>Source Station</option>
+          {% for station in stations %}
+          <option value="{{ station.station_id }}">
+            {{ station.station_name }}
+          </option>
+          {% endfor %}
+        </select>
+
+        <div class="swap">⇅</div>
+
+        <select name="destination" required>
+          <option selected disabled>Destination Station</option>
+          {% for station in stations %}
+          <option value="{{ station.station_id }}">
+            {{ station.station_name }}
+          </option>
+          {% endfor %}
+        </select>
+
+        <button type="submit" class="route-btn">Find Token and Metro Card Fare</button>
+      </div>
+    </form>
+
+    {% if path %}
+    <div class="result-box">
+      <h3>Route:</h3>
+      <p>{{ path|join:" → " }}</p>
+      <p><strong>Token Fare:</strong> ₹{{ token_fare }}</p>
+      <p><strong>Smart Card Fare:</strong> ₹{{ smartcard_fare }}</p>      
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="right-side">
+    <img
+      src="{% static 'images/metro.png' %}"
+      class="home-metro"
+      alt="Metro Train"
+    />
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'main.html' %} 
+{% load static %} 
+
+{% block content %}
+
+<div class="home-layout">
+
+  <!-- LEFT SIDE -->
+  <div class="left-side">
+    <div class="header">
+      <h1>Find information about station gates !</h1>
+    </div>
+
+    <div class="journey-box">
+      <form method="POST">
+        {% csrf_token %}
+
+        <select name="station" required>
+          <option selected disabled>Station</option>
+          {% for station in stations %}
+          <option value="{{ station.station_id }}">
+            {{ station.station_name }}
+          </option>
+          {% endfor %}
+        </select>
+
+        <button class="route-btn">Find gates and direction</button>
+      </form>
+    </div>
+
+    {% if gates %}
+      <div class="result-box">
+      <h3>Gates & Directions</h3>
+      {% for g in gates %}
+      <p><strong>Gate {{ g.gate_number }}</strong></p>
+      <p>{{ g.direction_description }}</p>
+      <p>{{ g.nearby_landmark }}</p>
+      {% endfor %}
+      </div>
+    {% endif %}
+
+  </div>
+  
+  <div class="right-side">
+    <img
+      src="{% static 'images/metro.png' %}"
+      class="home-metro"
+      alt="Metro Train"
+    />
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="home-layout">
+
+    <div class="left-side">
+        <div class="header">
+            <h1>Kindly provide feedback !</h1>
+        </div>
+
+        <div class="box">
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="route-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="right-side">
+        <img src="{% static 'images/metro.png' %}" class="home-metro">
+    </div>
+
+</div>
+
+{% endblock content %}
