@@ -1,2 +1,2 @@
-# grproj
+A Metro Management App built using Python, Django, and SQLite3 is a web-based application designed to manage metro station information, routes, fares, and passenger services efficiently. Django handles the backend logic and user management, while SQLite3 is used as the database to store metro-related data such as stations, timings, and ticket details. The app provides a simple and user-friendly interface for viewing routes, calculating fares, and managing metro operations.
 
